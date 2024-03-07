@@ -1,7 +1,7 @@
 function solution(arr) {
     var answer = '';
     
-    for (letter of arr) {
+    for (const letter of arr) {
         answer += letter
     }
     
